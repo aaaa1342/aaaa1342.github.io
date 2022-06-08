@@ -1,0 +1,174 @@
+
+<!doctype html>
+<html dir="ltr" lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <title>goolge首頁</title>
+    <style>
+
+        *{
+            background: #353535;
+        }
+
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        
+      }
+      .logo{
+        text-align: center;
+        margin: auto;
+       margin-top: 150px;
+       margin-left: auto;
+       margin-right: auto;
+       
+      }
+      .center{
+        display: flex;
+        background-color: white;
+        border-radius: 40px;
+        width: 600px;
+        margin: auto;
+        margin-top: 10px;
+        border-width: 2px;
+      }
+      .input_area{
+        border: 0;
+        outline: none; 
+        background-color: rgba(0, 0, 0, 0);
+      }
+      /* .center p{
+        color: #9D9EA2;
+        background-color: white;
+        margin-left: 20px;
+      } */
+   
+
+      .search{
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 18px;
+      }
+
+      .voice{
+        background-color: white;
+        margin-top: 15px;
+        margin-left: 340px;
+      }
+      .voice img{
+        background-color: white;
+      }
+      
+      #google {
+        border-radius:150px ;
+        outline-style: none ;
+        margin: auto;
+      }
+    
+      
+      .down{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .youtube {
+        display:block;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 48px;
+        width: 48px;
+        border-radius: 50%;
+        background-color: rgba(42, 42, 42, 1);
+        text-decoration:none;
+        margin: auto;
+      }
+      .youtube img{
+        background-color: rgba(42, 42, 42, 1);
+        width: 30px;
+        margin-left: 9px;
+        margin-top: 9px;
+      }
+      .add {
+        display:block;
+        margin:auto;
+        height: 48px;
+        width: 48px;
+        border-radius: 50%;
+        background-color: rgba(42, 42, 42, 1);
+        text-decoration:none;
+        margin: auto;
+       
+      }
+      .add img{
+        background-color: rgba(42, 42, 42, 1);
+        width: 30px;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      .yt{
+        height: 80px;
+        width: 80px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-decoration:none;
+      }
+      .plus{
+        height: 80px;
+        width: 80px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .down p{
+        background-color: rgba(74, 74, 74, 0);
+        margin-top: 10px;
+        font-size: 10px;
+      }
+      .yt:hover{
+            background-color: rgb(74, 74, 74);
+            border-radius: 3%;
+           
+background-color: rgb(101, 101, 100);
+border-radius : 5px;
+        }
+        .plus:hover{
+            background-color: rgb(74, 74, 74);
+            border-radius: 3%;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+        <img src="logo.png" height="92px"  width="272px">
+     
+    </div>
+
+    <div class="center">
+            <img class="search" src="search.png" width="20px" height="20px" >
+
+            <input class="input_area" type="text" placeholder="搜尋 Google 或輸入網址">
+
+            <a class="voice" href="">
+                <img src="voice.png" width="25px" height="25px">
+            </a>
+    </div>
+
+    <div class="down">
+        <div class="yt">
+            <a class="youtube" href="https://www.youtube.com/"><img src="youtube.png">
+            <p style="color:white">youtube</p>
+            </a>
+        </div>
+
+        <div class="plus">
+            <a class="add" href="https://chrome.google.com/webstore/category/extensions?hl=zh-TW"><img src="add.png">
+            <p style="color:white">新增捷徑</p>
+            </a>
+        </div>
+    </div>
+
+  </body>
+</html>
