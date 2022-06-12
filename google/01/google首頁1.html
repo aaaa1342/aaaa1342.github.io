@@ -6,9 +6,9 @@
     <title>goolge</title>
     <style>
 
-        *{
-        background: #353535;
-        }
+      *{
+      background: #353535;
+      }
       .logo{
       text-align: center;
       margin: auto;
@@ -26,7 +26,7 @@
         margin-top: 20px;
       }
 
-      .input_area{
+      .search{
         border: none;
         outline: none; 
         background-color: rgba(0, 0, 0, 0);
@@ -34,7 +34,14 @@
         line-height: 42px;
         text-indent: 30px;
       }
-      .search{
+      /* .center p{
+        color: #9D9EA2;
+        background-color: white;
+        margin-left: 20px;
+      } */
+   
+
+      .glass{
         background-color: white;
         width: 16px;
         left: 12px;
@@ -42,6 +49,12 @@
         top: 13px;
         margin-right: 15px;
       }
+
+      /* .voice{
+        background-color: white;
+        margin-top: 15px;
+        margin-left: 340px;
+      } */
       .voice img{
         background-color: white;
         width: 23px;
@@ -49,6 +62,7 @@
         top:10px;
         right: 15px;
       }
+      
       #google {
         border-radius:150px ;
         outline-style: none ;
@@ -75,11 +89,12 @@
       }
       .youtube img{
         background-color: rgba(42, 42, 42, 1);
-        width: 30px;
-        margin-left: 9px;
-        margin-top: 9px;
+        width: 40px;
+        border-radius: 50%;
+        display: flex;
+        margin: auto;
       }
-      .add {
+      /* .add {
         display:block;
         margin:auto;
         height: 48px;
@@ -89,42 +104,37 @@
         text-decoration:none;
         margin: auto;
        
-      }
+      } */
       .add img{
         background-color: rgba(42, 42, 42, 1);
-        width: 30px;
-        margin-left: 10px;
-        margin-top: 10px;
+        width: 40px;
+        border-radius: 50%;
+        display: flex;
+        margin: auto;
       }
       .yt{
-        height: 80px;
-        width: 80px;
-        margin-left: 10px;
-        margin-right: 10px;
-        text-decoration:none;
         margin-top:15px;
+        width: 100px;
+        padding: 10px;
       }
       .plus{
-        height: 80px;
-        width: 80px;
-        margin-left: 10px;
-        margin-right: 10px;
         margin-top:15px;
+        width: 100px;
+        padding: 10px;
       }
       .down p{
-        color:white;
-        background-color: rgba(74, 74, 74, 0);
-        margin-top: 10px;
-        font-size: 10px;
+      color:white;
+      font-size: 14px;
+      text-align:center;
       }
       .yt:hover{
-            background-color: rgb(74, 74, 74);
-            border-radius: 3%;
-        }
-        .plus:hover{
-            background-color: rgb(74, 74, 74);
-            border-radius: 3%;
-        }
+      background-color: rgb(74, 74, 74);
+      border-radius: 3%;
+      }
+      .plus:hover{
+      background-color: rgb(74, 74, 74);
+      border-radius: 3%;
+      }
     </style>
   </head>
   <body>
@@ -134,24 +144,26 @@
     </div>
 
     <div class="center">
-            <img class="search" src="search.png">
+            <img class="glass" src="search.png">
 
-            <input class="input_area" type="text" placeholder="搜尋 Google 或輸入網址">
+            <input class="search" type="text" placeholder="搜尋 Google 或輸入網址">
 
             <a class="voice" href="#">
-              <img src="voice.png">
+                <img src="voice.png">
             </a>
     </div>
 
     <div class="down">
         <div class="yt">
-            <a class="youtube" href="https://www.youtube.com/"><img src="youtube.png">
+            <a class="youtube" href="https://www.youtube.com/">
+            <img src="youtube.png">
             <p>youtube</p>
             </a>
         </div>
 
         <div class="plus">
-            <a class="add" href="https://chrome.google.com/webstore/category/extensions?hl=zh-TW"><img src="add.png">
+            <a class="add" href="#">
+            <img src="add.png">
             <p>新增捷徑</p>
             </a>
         </div>
