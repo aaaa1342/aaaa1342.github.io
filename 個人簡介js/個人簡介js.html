@@ -4,24 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>0622</title>
+    <title>個人簡介js</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+        }
+        .all{
+            margin:auto;
+            width: 900px;
+            flex-wrap: wrap;
+        }
+        .top{
+            width: 900px;
+            height: 506px;
+            margin: 0 auto;
+            border: 5px solid #faa;
+            margin: 20px 0px;
+        }
+        .person{
+            margin: 0 auto;
+            width: 100%;
+            border: 5px solid #faa;
+            margin: 20px 0px;
+        }
+        .abc{
+            display: flex;
+            width: 100%;
+            border: 5px solid #faa;
+            margin: 20px 0px;
+        }
+
+    </style>
 </head>
 <body>
     
-    <img class="top"src="" alt="">
-
-    <p class="name"></p>
-    <p class="email"></p>
-    <p class="school"></p>
-    <p class="habbits"></p>
-
-    <img class="a"src="" alt="">
-    <img class="b"src="" alt="">
-    <img class="c"src="" alt="">
+    <div class="all">
+        <div class="top1">
+            <img class="top"src="" alt="">
+        </div>
+        <div class="person">
+            <p class="name"></p>
+            <p class="email"></p>
+            <p class="school"></p>
+            <p class="habbits"></p>
+        </div>
+        <div class="abc">
+            <img class="a"src="" alt="">
+            <img class="b"src="" alt="">
+            <img class="c"src="" alt="">
+        </div>
+    </div>
 
 
     <script>
-        const pic = "https://picsum.photos/1100/200/?/random1";
+        const pic = "https://www.hotelscombined.com.tw/rimg/dimg/a6/2e/6a8aaaab-reg-162-167d1494328.jpg?width=1366&height=768&xhint=2075&yhint=1411&crop=true";
 
         let pic1 =document.querySelector('.top');
         pic1.src=pic;
@@ -43,9 +81,9 @@
 
         document.write(`<br>`)
 
-        const a1 = "https://picsum.photos/1100/80/?/random2";
-        const b1 = "https://picsum.photos/1100/80/?/random3";
-        const c1 = "https://picsum.photos/1100/80/?/random4";
+        const a1 = "https://picsum.photos/300/200/?/random2";
+        const b1 = "https://picsum.photos/300/200/?/random3";
+        const c1 = "https://picsum.photos/300/200/?/random4";
         let a11 =document.querySelector('.a')
         a11.src=a1
         let b11 =document.querySelector('.b')
