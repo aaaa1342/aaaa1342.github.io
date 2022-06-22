@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0622</title>
+</head>
+<body>
+    
+    <img class="top"src="" alt="">
+
+    <p class="name"></p>
+    <p class="email"></p>
+    <p class="school"></p>
+    <p class="habbits"></p>
+
+    <img class="a"src="" alt="">
+    <img class="b"src="" alt="">
+    <img class="c"src="" alt="">
+
+
+    <script>
+        const pic = "https://picsum.photos/1100/200/?/random1";
+
+        let pic1 =document.querySelector('.top');
+        pic1.src=pic;
+        document.write(`<br>`);
+
+        let name = "姓名 : Hsuan";
+        let email = "郵箱: XD@gmail.com";
+        let school = "學校: Build School";
+        let habbits = "興趣: travel";
+
+        let name1 = document.querySelector(".name");
+        let email1 = document.querySelector(".email");
+        let school1 = document.querySelector(".school");
+        let habbits1 = document.querySelector(".habbits");
+        name1.innerHTML=`${name}`;
+        email1.innerHTML=`${email}`;
+        school1.innerHTML=`${school}`;
+        habbits1.innerHTML=`${habbits}`;
+
+        document.write(`<br>`)
+
+        const a1 = "https://picsum.photos/1100/80/?/random2";
+        const b1 = "https://picsum.photos/1100/80/?/random3";
+        const c1 = "https://picsum.photos/1100/80/?/random4";
+        let a11 =document.querySelector('.a')
+        a11.src=a1
+        let b11 =document.querySelector('.b')
+        b11.src=b1
+        let c11 =document.querySelector('.c')
+        c11.src=c1
+
+
+
+        
+        
+
+
+    </script>
+
+
+</body>
+</html>
